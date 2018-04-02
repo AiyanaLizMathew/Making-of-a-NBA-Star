@@ -15,9 +15,9 @@ import json
 app = Flask(__name__)  
 
 # MongoDB Connection
-client = MongoClient('mongodb://localhost:27017')
+client = MongoClient('mongodb://Aiyana410:04101993mad@ds131329.mlab.com:31329/heroku_vvxv5zjt',connectTimeoutMS=30000)
 # Initialize db as nba database
-db = client.nba
+db = client.get_default_database()
 # Initialize the collection to variables
 nba_bio_collection = db.nba_bio 
 nba_collg_collection = db.nba_collg
