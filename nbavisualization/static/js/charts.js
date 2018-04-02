@@ -313,7 +313,7 @@ function PlotCharts(){
     //-----------------------------
     // MAP PLOT CODE
     //-----------------------------
-    var mapbox = 'https://api.mapbox.com/styles/v1/mapbox/light-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1Ijoia2pnMzEwIiwiYSI6ImNpdGRjbWhxdjAwNG0yb3A5b21jOXluZTUifQ.T6YbdDixkOBWH_k9GbS8JQ'
+    var mapbox = 'https://api.mapbox.com/styles/v1/mapbox/streets-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWl5YW5hbGl6IiwiYSI6ImNqZWo2Y2dtZTFhMmMyd3FzYmIyYzBmbmUifQ.t0V5k-F-sJyWekd64sL-4g'
     var colleges = new L.LayerGroup();
     var highSchools = new L.LayerGroup();
     //Create overlay object
