@@ -15,7 +15,7 @@ import json
 app = Flask(__name__)  
 
 # MongoDB Connection
-client = MongoClient('mongodb://Aiyana410:NBASTAR1@ds131329.mlab.com:31329/heroku_vvxv5zjt')
+client = MongoClient('mongodb://Aiyana:NBASTAR1@ds059207.mlab.com:59207/heroku_m27f6z7x')
 # Get the sampleDB database
 db = client.get_database()
 # Initialize the collection to variables
