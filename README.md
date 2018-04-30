@@ -3,7 +3,7 @@
 ## Preview
 
 This application tells you about the ideal firstname, birth date and birth place for becoming a NBA Player, the colleges and highschools that provide a chance to acheiving your dreams to being a NBA Player and also your chances of becoming one analysing your current stats.
-**[View Live Preview](https://making-ofa-nbastar.herokuapp.com)**
+**[View Website](https://making-ofa-nbastar.herokuapp.com)**
 
 ## Usage
 
